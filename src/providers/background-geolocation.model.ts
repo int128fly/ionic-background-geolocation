@@ -1,12 +1,12 @@
-type Event = 'location' | 'stationary' | 'activity' | 'start' | 'stop' | 'error' | 'authorization' | 'foreground' | 'background' | 'abort_requested' | 'http_authorization';
-type HeadlessTaskEventName = 'location' | 'stationary' | 'activity';
-type iOSActivityType = 'AutomotiveNavigation' | 'OtherNavigation' | 'Fitness' | 'Other';
-type NativeProvider = 'gps' | 'network' | 'passive' | 'fused';
-type ActivityType = 'IN_VEHICLE' | 'ON_BICYCLE' | 'ON_FOOT' | 'RUNNING' | 'STILL' | 'TILTING' | 'UNKNOWN' | 'WALKING';
-type LogLevel = 'TRACE' | 'DEBUG' | 'INFO' | 'WARN' | 'ERROR';
-type AccuracyLevel = LocationAccuracy | number;
-type LocationErrorCode = 1 | 2 | 3;
-type ServiceMode = 0 | 1;
+export type Event = 'location' | 'stationary' | 'activity' | 'start' | 'stop' | 'error' | 'authorization' | 'foreground' | 'background' | 'abort_requested' | 'http_authorization';
+export type HeadlessTaskEventName = 'location' | 'stationary' | 'activity';
+export type iOSActivityType = 'AutomotiveNavigation' | 'OtherNavigation' | 'Fitness' | 'Other';
+export type NativeProvider = 'gps' | 'network' | 'passive' | 'fused';
+export type ActivityType = 'IN_VEHICLE' | 'ON_BICYCLE' | 'ON_FOOT' | 'RUNNING' | 'STILL' | 'TILTING' | 'UNKNOWN' | 'WALKING';
+export type LogLevel = 'TRACE' | 'DEBUG' | 'INFO' | 'WARN' | 'ERROR';
+export type AccuracyLevel = LocationAccuracy | number;
+export type LocationErrorCode = 1 | 2 | 3;
+export type ServiceMode = 0 | 1;
 
 export enum AuthorizationStatus {
     NOT_AUTHORIZED,
